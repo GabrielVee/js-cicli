@@ -11,12 +11,14 @@
 
 // # Fase di preparazione
 
-
 // # Fase di raccolta dati
 
 
 // # Fase di elaborazione
-
+for (let i = 1; i <= 10; i++) {
+  console.log(`Ripetizione ${i}`);
+}
 
 // # Fase di output
+console.log("Serie finita!");
 
