@@ -14,8 +14,19 @@
 
 // # Fase di raccolta dati
 
+let piano = parseInt(prompt("Inserisci il piano in qui vuoi andare"));
 
 // # Fase di elaborazione
+
+if (isNaN(piano) || piano < 0) {
+  alert("Piano non valido")
+
+} else {
+  for (let i = 0; i <= piano; i++) {
+    console.log(`Piano ${i}`);
+  }
+  alert(`Sei arrivato al piano ${piano}`);
+}
 
 
 // # Fase di output
