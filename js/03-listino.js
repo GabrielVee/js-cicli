@@ -13,10 +13,12 @@
 
 
 // # Fase di raccolta dati
-
+let costoBiglietto = parseInt(prompt("Inserisci prezzo biglietto"));
 
 // # Fase di elaborazione
-
+for (let i = 1; i <= 10; i++) {
+  console.log(`Quantità ${i}: ${costoBiglietto * i} €`);
+}
 
 // # Fase di output
 
