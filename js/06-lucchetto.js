@@ -14,9 +14,15 @@
 
 // # Fase di raccolta dati
 
-
+let codice = parseInt(prompt("Inserisci il codice per il lucchetto"));
 // # Fase di elaborazione
+while (codice !== 482) {
+
+  console.log("Combinazione sbagliata, riprova");
+  codice = parseInt(prompt("Inserisci il codice per il lucchetto"));
+}
+
 
 
 // # Fase di output
-
+alert("Lucchetto aperto!");
